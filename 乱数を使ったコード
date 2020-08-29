@@ -1,0 +1,25 @@
+Imports System
+
+Module Program
+    Sub Main()
+
+        Dim num = New System.Random()
+
+        While (1)
+
+            Console.WriteLine("キーボードから何か入力してください")
+            Dim ans As String = Console.ReadLine()
+
+            Dim num2 = num.Next(3) + 1
+            If num2 = 1 Then
+                Console.WriteLine("大当たり")
+            ElseIf num2 = 2 Then
+                Console.WriteLine("はずれ")
+            Else
+                Console.WriteLine("ちょいはずれ")
+            End If
+
+        End While
+
+    End Sub
+End Module
