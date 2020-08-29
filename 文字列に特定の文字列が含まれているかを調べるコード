@@ -1,0 +1,18 @@
+Imports System
+
+Module Program
+    Sub Main()
+
+        Console.WriteLine("名前を入力してください")
+
+        Dim name As String = Console.ReadLine()
+        Dim match As Boolean = name.Contains("V")
+
+        If match = True Then
+            Console.WriteLine("一致")
+        Else
+            Console.WriteLine("不一致")
+        End If
+
+    End Sub
+End Module
