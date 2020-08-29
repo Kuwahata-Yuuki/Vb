@@ -1,0 +1,18 @@
+Imports System
+
+Module Program
+    Sub Main()
+
+        While (1)
+
+
+
+            Console.WriteLine("おは")
+            System.Threading.Thread.Sleep(5000)
+            Console.WriteLine("よう")
+
+        Exit While
+
+        End While
+    End Sub
+End Module
