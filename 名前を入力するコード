@@ -1,0 +1,17 @@
+Imports System
+
+Module Program
+    Sub Main()
+
+        Dim name As String = ""
+        Console.WriteLine("名前を入力してください")
+
+        name = Console.ReadLine()
+
+        Console.WriteLine(name & "さん、ようこそ")
+
+
+
+
+    End Sub
+End Module
